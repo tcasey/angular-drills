@@ -1,3 +1,9 @@
-angular.module('app3').controller('ctrl', function ($scope, svc) {
+angular.module('app3').controller('ctrl', function($scope, svc) {
   $scope.data = svc.getData();
+
+$scope.filterObj = {
+  email: 'uk',
+  phone: '66'
+}
+
 });
