@@ -1,3 +1,4 @@
-angular.module('arrayApp').controller('arrayController', function($scope, arrayService) {
-  $scope.myData = arrayService.getData();
+angular.module('arrayApp').controller('arrayController', function($scope, svc) {
+  $scope.data = svc.getData();
+
 })
